@@ -16,17 +16,18 @@ hyper....code
 
 // hyper reference file, more info
 // enter 1 file per line, each file must end with .hyper
-// name and define an external file with 4 dots at beginning and end
+// name and define an external file with 4 dots at beginning
 hyper....file
-    ....myHyperFile1.hyper....
-    ....myHyperFile2.hyper....
-    ....myHyperFile3.hyper....
+    ....myHyperFile1.hyper
+    ....myHyperFile2.hyper
+    ....myHyperFile3.hyper
 ....hyper
 
 // a .hyper file must contain a class that is the same name as the file.
 // for example, myHyperFile.hyper would be written as:
+// the class name must contain the file name
     hyper....
-        ...myHyperFile...
+        ...myHyperFile.hyper
     ....hyper
 
 
@@ -35,14 +36,14 @@ hyper....file
 // variable name must be followed by 1 dot and the data type.
 // there are 3 data types numbers, text and containers
 // a container can hold both numbers and text
-    .myNum. .n
-    .myStr. .s
-    .myCon. .c
+    .myNum .n
+    .myStr .s
+    .myCon .[]
 
 
-// define the name of a function/method with two dots at beginning and end of name
-    ..myFunction..
+// define the name of a function/method with two dots at beginning
+    ..myFunction
 
 
-// define the name of a class with 3 dots at beginning and end of name
-    ...myClass...
+// define the name of a class with 3 dots at beginning
+    ...myClass

@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1f569755-8c44-4351-bd82-f75723491daf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/definitions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/definitions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hyper.hyper" beforeDir="false" afterPath="$PROJECT_DIR$/hyper.hyper" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interpreter/hyper.php" beforeDir="false" afterPath="$PROJECT_DIR$/interpreter/hyper.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610672222519</updated>
       <workItem from="1610672225465" duration="796000" />
-      <workItem from="1610990653542" duration="2770000" />
+      <workItem from="1610990653542" duration="13596000" />
     </task>
     <servers />
   </component>
