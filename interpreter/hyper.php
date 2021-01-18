@@ -1,6 +1,5 @@
 <?php
 
-//    $main = file('../hyper..hyper');
 $file = file('../hyper.hyper');
 
 

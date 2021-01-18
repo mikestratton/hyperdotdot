@@ -6,12 +6,22 @@ hyper.... // start
 // it must be named
 hyper.hyper
 
-// the hyper.hyper file can contain references to other files for processing
+// the hyper.hyper is the main file processed by the PHP interpreter
+// the hyper.hyper file will either contain references to other files or will be the only file with code
+// hyper.hyper cannot contain both code and references
+// a hyper reference file will start as follows:
+hyper....file
+// a hyper code file will start as follows:
+hyper....code
+
+// hyper reference file, more info
 // enter 1 file per line, each file must end with .hyper
-// name and define an external file with 4 dots
-....myHyperFile1.hyper
-....myHyperFile2.hyper
-....myHyperFile3.hyper
+// name and define an external file with 4 dots at beginning and end
+hyper....file
+    ....myHyperFile1.hyper....
+    ....myHyperFile2.hyper....
+    ....myHyperFile3.hyper....
+....hyper
 
 // a .hyper file must contain a class that is the same name as the file.
 // for example, myHyperFile.hyper would be written as:
