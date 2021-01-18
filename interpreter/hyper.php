@@ -2,6 +2,8 @@
 
 //    $main = file('../hyper..hyper');
 $file = file('../hyper..hyper');
+
+
 foreach($file as $input){
 
     $variable = strpos($input, '.');
@@ -14,11 +16,5 @@ foreach($file as $input){
     }
 }
 
-
-//while(! feof($main))
-//{
-//    echo fgets($main). "<br />";
-//}
-//fclose($main);
 
 
